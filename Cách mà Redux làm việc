@@ -1,0 +1,7 @@
+Nói một cách đơn giản, bạn sẽ trigger một action trong component, nó có thể là một button, một text field, hay blabla… sẽ có một thành phần khác listen đến cái action mà bạn vừa trigger, sử dụng payload mà action đó trả về, sinh ra một global state mới từ payload đó sau đó trả ngược lại cho component để nó thực hiện nhiệm vụ render lại nếu cái global state đó có thay đổi so với global state trước đó. Khi component được render xong thì lúc đó chu trình coi như hoàn tất.
+
+Lý thuyết thế đủ rồi, còn chờ gì nữa mà không bắt tay vào implement nhỉ!
+
+Từ folder của project các bạn cài đặt như sau.
+
+npm install --save redux redux-logger
