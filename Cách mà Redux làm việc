@@ -5,3 +5,5 @@ Lý thuyết thế đủ rồi, còn chờ gì nữa mà không bắt tay vào i
 Từ folder của project các bạn cài đặt như sau.
 
 npm install --save redux redux-logger
+
+Redux là một thư viện hỗ trợ chúng ta quản lí các state trong các ứng dụng javascript. Có thể khẳng định đây là một thư viện khá quan trọng nhưng đối với những người mới làm quen với Redux việc tích hợp nó vào dự án React không đơn giản.
